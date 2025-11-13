@@ -9,13 +9,9 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Film implements Serializable {
-    private String nomeFilm;
+public class Sala implements Serializable {
     private Long id;
-    private String titolo;
-    private String regista;
-    private Integer durataMinuti;
-    private String genere;
-    private Integer annoUscita;
+    private String nome;
+    private Integer capienza;
+    private String tipoSala;
 }
-
