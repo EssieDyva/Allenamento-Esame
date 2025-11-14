@@ -10,7 +10,6 @@ import java.io.Serializable;
 @NoArgsConstructor
 
 public class Film implements Serializable {
-    private String nomeFilm;
     private Long id;
     private String titolo;
     private String regista;

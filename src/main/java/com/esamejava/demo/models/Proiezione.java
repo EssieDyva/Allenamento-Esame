@@ -19,8 +19,8 @@ public class Proiezione implements Serializable{
     private Long cliente_id;
     private Long proiezione_id;
     private Integer numero_posti;
-    private LocalDateTime data_prenotazione;
-    private BigDecimal totale;
+    private String data_prenotazione;
+    private Double totale;
     private String stato;
 
 }

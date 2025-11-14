@@ -18,7 +18,7 @@ public class Prenotazione implements Serializable {
     private Long id;
     private Long film_id;
     private Long sala_id;
-    private LocalDateTime data_ora;
-    private BigDecimal prezzo_bigietto;
+    private String data_ora;
+    private Double prezzo_biglietto;
     private Integer posti_disponibili;
 }
