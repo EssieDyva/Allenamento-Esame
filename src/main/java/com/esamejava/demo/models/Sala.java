@@ -11,7 +11,11 @@ import java.io.Serializable;
 
 public class Sala implements Serializable {
     private Long id;
-    private String nome;
-    private Integer capienza;
-    private String tipoSala;
+    private Long cliente_id;
+    private Long proiezione_id;
+    private Integer numero_posti;
+    private String data_prenotazione;
+    private Double totale;
+    private String stato;
+
 }
